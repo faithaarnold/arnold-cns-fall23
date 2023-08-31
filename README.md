@@ -12,5 +12,5 @@ After these changes, ssh into Vagrant and use a "wget" command to display the ht
 This tutorial allowed access to the guest machine from the host machine. To do this, I added the "config.vm.network :forwarded_port, guest: 80, host: 4567" command to my Vagrantfile. After doing this, the html file I created was able to be accessed through http://127.0.0.1:4567/ 
 ![image](https://github.com/faithaarnold/arnold-cns-fall23/assets/90394310/97013fd1-961f-44a3-9593-ddeddae1a525)
 
-##Shell Provisioner
+## Shell Provisioner
 The Vagrant Shell provisioner is a great method for users new to Vagrant to upload and run script in the guest machine. Shell executes scripts using ssh, making it much simpler to use in comparison to full configuration management systems.
