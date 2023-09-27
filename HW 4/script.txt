@@ -1,0 +1,6 @@
+
+if ($ExecutionPolicy -eq "RemoteSigned") {
+    Write-Host "Execution Policy is set to RemoteSigned. You can run unsigned scripts from remote sources with a valid signature."
+} else {
+    Write-Host "Execution Policy is NOT set to RemoteSigned. You may need to set it to RemoteSigned to run unsigned scripts from remote sources."
+}
