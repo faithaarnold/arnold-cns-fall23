@@ -40,8 +40,5 @@ In Powershell, I then cd'ed into the directory where the .ps1 file was then exec
 
 ![image](https://github.com/faithaarnold/arnold-cns-fall23/assets/90394310/23184671-da45-4dcb-96cf-d7702d4146c8)
 
-Unfortunately, one of the packages being downloaded wasn't making any progress, so I could not continue further with running the files. Below is a screenshot of the package downloading screen I had for about 20 minutes.
-
-![image](https://github.com/faithaarnold/arnold-cns-fall23/assets/90394310/ef237c64-dc26-4a72-8dad-adde8dade402)
-
+Downloading this created many diferent users throughout different folders to simulate an AD environment. 
 
